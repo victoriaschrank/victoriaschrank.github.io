@@ -1,0 +1,29 @@
+body{
+    background-image: url("file:///home/hoff/code/vika/mystuff/img/berlin-bg-light.png");
+    background-position: 0px 400px;
+    background-repeat:repeat-x;
+}
+
+#center-intro{
+    text-align: center;
+    margin-top: 150px;
+    height: 370px;
+}
+#spacer{
+    height:600px;
+    background-color: white;
+    margin-top: 200px;
+    background-color:lime;
+}
+
+#about-section{
+    background-color:#333;
+    height: 600px;
+    color:white;
+    margin-top:200px;
+}
+#about-content>h2, #about-content>h3{
+    color:#3e8e78;
+    font-weight: bold;
+    padding-top:100px;
+}

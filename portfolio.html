@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Victoria Schrank - Online Brand Communications</title>
+        <link rel="stylesheet" href="foundation/css/foundation.css" />
+        <link rel="stylesheet" href="mystuff/my.css" />
+        <script src="foundation/js/vendor/modernizr.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $(document).on('scroll', function(){
+                var fromTop = parseInt($('body').scrollTop());
+                var reduceBy = fromTop / 2
+                var newTop = 400 + fromTop - reduceBy
+                $('body').css('background-position','0px ' + newTop+ 'px')
+            })
+        })
+        </script>
+    </head>
+    <body>
+
+        <div class="row">
+            <div class="large-12 columns">
+                <div id="center-intro">
+                    <h1>Vika Schrank</h1>
+                    <h2>Hottie in Bigital Brand Communications</h2>
+                </div>
+            </div>
+        </div>
+        <section id="about-section">
+            <div class="row">
+                <div class="large-12 columns">
+                    <div id="about-content">
+                        <h2>About me</h2>
+                        <h3>My work is definitely not just a job; it's my life.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

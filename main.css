@@ -1,0 +1,17 @@
+body{
+    font-family: Helvetica;
+    margin:0px;
+    background-color:#C0F73E;
+}
+#navigation{
+    background-color:#000;
+    color:#fff;
+    padding:20px;
+}
+#content{
+    width:920px;
+    margin:0px auto;
+    background-color:white;
+    min-height: 300px;
+    padding:40px;
+}
