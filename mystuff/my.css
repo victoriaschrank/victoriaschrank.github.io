@@ -2,7 +2,15 @@ body{
     background-image: url("https://raw.github.com/victoriaschrank/victoriaschrank.github.io/master/mystuff/img/berlin-bg-light.png");
     background-position: 0px 400px;
     background-repeat:repeat-x;
+    
+}
+body, h1, h2, p, div{
     font-family: 'Arapey', serif;
+}
+
+#intro-name{
+    font-size:50px;
+    font-weight: bold;
 }
 
 #center-intro{
